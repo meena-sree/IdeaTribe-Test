@@ -23,17 +23,20 @@ export default function Cards() {
   return (
     <section className="w-full bg-black py-32">
       {/* Section title */}
-      <h2 className="text-4xl font-semibold text-center mb-20">
+      <h2 className="text-4xl font-semibold text-center mb-32">
         Build, Validate, and Grow
       </h2>
 
-      {/* Cards */}
-      <div className="max-w-5xl mx-auto space-y-24">
+      {/* Cards wrapper */}
+      <div className="max-w-5xl mx-auto space-y-32">
         {cards.map((card, index) => (
           <div
             key={card.id}
-            className="sticky top-32"
-            style={{ zIndex: cards.length - index }}
+            className="sticky"
+            style={{
+              top: 120,
+              zIndex: index + 1,
+            }}
           >
             <div className="bg-gradient-to-br from-blue-900 to-black border border-blue-500/30 rounded-2xl p-10 shadow-xl">
               <div className="flex flex-col md:flex-row gap-10 items-center">
