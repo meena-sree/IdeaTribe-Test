@@ -45,3 +45,8 @@ npm run dev
 
 ## The application will be available at:
 http://localhost:5173
+
+## Live Demo
+
+The project is deployed on Netlify and can be viewed here:  
+https://idea-tribe-test.netlify.app/
