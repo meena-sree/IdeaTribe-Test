@@ -1,9 +1,10 @@
+import bgImage from '../assets/dividerImage.png'
 export default function Journey() {
   return (
     <section
       className="relative w-full py-32 bg-fixed bg-center bg-cover"
       style={{
-        backgroundImage: "url('/src/assets/dividerImage.png')",
+        backgroundImage: `url(${bgImage})`,
       }}
     >
       {/* Overlay */}

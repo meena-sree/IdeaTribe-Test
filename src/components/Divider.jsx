@@ -1,9 +1,10 @@
+import bgImage from '../assets/dividerImage.png'
 export default function Divider() {
   return (
     <section
       className="w-full py-28 flex items-center justify-center bg-black"
       style={{
-        backgroundImage: "url('/src/assets/dividerImage.png')",
+        backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
