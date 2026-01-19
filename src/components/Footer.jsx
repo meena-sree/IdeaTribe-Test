@@ -8,9 +8,6 @@ export default function Footer() {
         {/* Left: Logo */}
         <div className="flex items-center gap-3">
           <img src={logo} alt="GCA Logo" className="h-8" />
-          <span className="text-sm text-gray-400">
-            Global Cybersecurity Association
-          </span>
         </div>
 
         {/* Center: Links */}
