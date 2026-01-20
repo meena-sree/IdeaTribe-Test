@@ -1,4 +1,4 @@
-export default function Menu() {
+export default function Navbar() {
   return (
     <nav className="w-full bg-black">
       <ul className="flex justify-center gap-10 py-4 text-sm">
